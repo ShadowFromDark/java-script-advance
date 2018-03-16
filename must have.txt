@@ -1,0 +1,9 @@
+https://git-scm.com/book/ru/v1/Основы-Git
+https://githowto.com/ru
+https://learn.javascript.ru/types-conversion
+https://learn.javascript.ru/global-object
+https://www.freecodecamp.org/challenges/check-for-palindromes
+https://git-scm.com/book/ru/v1
+https://www.youtube.com/watch?v=ncaWoyLINoI&feature=youtu.be
+http://www.jstips.co/en/javascript/
+https://atomiks.github.io/30-seconds-of-css/
