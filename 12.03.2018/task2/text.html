@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<script src="js.js"></script>
+
 <style>
 	*
 	{
@@ -15,47 +14,43 @@
 		background-size:cover;
 		background-repeat: no-repeat;
 	}
+	.words {
+      max-width:500px;
+      margin:50px auto;
+      background:transparent;
+      border-radius:5px;
+      box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+      padding:1rem 2rem 1rem 5rem;
+      background-size: 100% 3rem;
+      position: relative;
+      line-height:3rem;
+    }
+    p {
+      margin: 0 0 3rem;
+    }
+    .words:before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      top: 0;
+      left: 30px;
+      bottom: 0;
+      border: 1px solid;
+      border-color: transparent #efe4e4;
+    }
+    button{
+
+    }
 
 </style>
 
 </head>
 
 <body>
-	<div>
-<!--
-  	<button onclick="text()">Цитата</button>
--->
+	<div class="words" contenteditable>
 	</div>
+<button onclick="text()">Цитата</button>
+
+	<script src="js.js"></script>
 </body>
 </html>
-=======
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<script src="js.js"></script>
-<style>
-	*
-	{
-		padding:0;
-		margin:0px;	
-	}
-	body{
-		background: url(homer.jpg);
-		background-size:cover;
-		background-repeat: no-repeat;
-	}
-
-</style>
-
-</head>
-
-<body>
-	<div>
-<!--
-  	<button onclick="text()">Цитата</button>
--->
-	</div>
-</body>
-</html>
->>>>>>> 609582a747eb75b7a3a68680582cd6a2a7dc5704
