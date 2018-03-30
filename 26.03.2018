@@ -54,20 +54,7 @@ console.log(slasher(["text1", "text2", "text3", "text4"], 2));
 
 console.log("*********************")
 // // 3. Дан ul, в нем несколько li. Под ul сделайте кнопку, по нажатию на которую в конец ul будет добавляться новый li с текстом 'пункт'. Сделайте так, чтобы при клике на каждый li, ему в конец добавлялся '!'. Это должно работать и для вновь добавленных li. Задачу решите с помощью делегирования (то есть событие должно быть навешано на ul)
-function addLi() {
-	var ul = document.getElementById("list"), 
-		li = document.createElement("li");
-		li.innerText = "Пункт";
-		ul.appendChild(li);
-	}
-	
-	function List(e){
-		e.onclick = function(e){
-			var target = event.target;
-				target.innerText += "!"
-		}
-	};
-List(list);
+
 
 console.log("*********************")
 // // // 4. Дан массив с числами. Проверьте, есть ли в нем два одинаковых числа подряд. Если есть - выведите 'да', а если нет - выведите 'нет'
